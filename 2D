@@ -1,0 +1,7 @@
+<html>
+	<frameset rows = "20, 20, 40">
+		<frame src = '2d(image).html'>
+		<frame src = 'para.html'>
+		<frame src = 'url.html'>
+	</frameset>
+</html>
