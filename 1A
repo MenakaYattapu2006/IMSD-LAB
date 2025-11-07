@@ -1,0 +1,32 @@
+<html>
+<body>
+<ol>
+<font color = "red">
+<h1>B.Tech Programs offered</h1>
+</font>
+</ol>
+<ul>
+<li>Agriculture Engineering</li>
+<li>Civil Engineering</li>
+<li>Computer Science and Engineering</li>
+<li>Electrical and Electronic Engineering</li>
+<li>Artificial Intelligence & Machine Learning</li>
+<li>Information Technology</li>
+</ul>
+ <ol>
+<font color = "red">
+<h1>M.Tech program offered</h1>
+</font>
+</ol>
+<ul>
+<li>Agriculture Engineering</li>
+<li>Civil Engineering</li>
+<li>Computer Science and Engineering</li>
+<li>Electrical and Electronic Engineering</li>
+<li>Artificial Intelligence & Machine Learning</li>
+<li>Information Technology</li>
+</ul>
+</body>
+</html>
+
+
