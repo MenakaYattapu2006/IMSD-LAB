@@ -1,0 +1,19 @@
+<html>
+<head>
+  <style>
+  .box-model{
+    width: 300px;
+    height: 150px;
+    background-colour: lightblue;
+    border: 5px solid navy;
+    margin: 50px;
+    padding: 50px;
+   }
+  </style>
+</head>
+<body>
+  <div class = "box-model">
+      My name is Menaka Yattapu from Proddatur. I'm currently in my second year of B.Tech in Computer Science Engineering at Aditya University
+  </div>
+</body>
+</html>
