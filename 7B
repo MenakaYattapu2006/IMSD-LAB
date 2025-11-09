@@ -1,0 +1,10 @@
+<html>
+<body>
+<script>
+	var a = window.prompt("Enter a Value");
+	document.write(a);
+	window.alert("This page leads to a webpage");
+	window.confirm("This is a confirmation message");
+</script>
+</body>
+<html>
