@@ -1,0 +1,13 @@
+<html>
+<body>
+<script>
+	let regex = /hello/gi;
+	var str= "Hello hello";
+	document.write("gobal : "+regex.global+"<br>");
+	document.write("test : "+regex.test(str)+"<br>");
+	document.write("exec : "+regex.exec(str)+"<br>");
+	document.write("toString : "+regex.toString()+"<br>");
+
+</script>
+</body>
+</html>
