@@ -1,0 +1,48 @@
+-------------------INLINE-----------------------
+<html>
+<body>
+<center>
+<h1 style = "color:blue;">Welcome To Aditya University</h1>
+</center>
+<p style = "color:red;">           Embark on a transformative journey towards academic excellence and personal growth. Aditya University opens the doors to a world of possibilities, where education transcends boundaries and empowers you to shape your future. At Aditya University, education is more than a degree—it's a pathway to unlocking your full potential and making a meaningful impact.
+            The campus, set in a vibrant environment, attracts students from more than 20 countries, creating a diverse and enriching academic experience. This multicultural atmosphere fosters collaboration and innovation, preparing students for a global workforce.</p>
+</body>
+</html>
+
+------------------INTERNAL------------------------
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1 {color: blue;}
+p {color: white;}
+</style>
+</head>
+
+<body>
+
+<h1>Welcom To Aditya University</h1>
+<p>   Embark on a transformative journey towards academic excellence and personal growth. Aditya University opens the doors to a world of possibilities, where education transcends boundaries and empowers you to shape your future. At Aditya University, education is more than a degree—it's a pathway to unlocking your full potential and making a meaningful impact.
+    The campus, set in a vibrant environment, attracts students from more than 20 countries, creating a diverse and enriching academic experience. This multicultural atmosphere fosters collaboration and innovation, preparing students for a global workforce.</p>
+
+</body>
+</html>
+
+-----------------EXTERNAL----------------------------
+--STYLE.CSS FILE---
+body {background-color: powderblue;}
+h1 {color: blue;}
+p {color: white;}
+
+<html>
+<head>
+	<link rel = "stylesheet" href="Style.css">
+</head>
+<body>
+<center>
+<h1>Welcom To Aditya University</h1>
+</center>
+<p>   Embark on a transformative journey towards academic excellence and personal growth. Aditya University opens the doors to a world of possibilities, where education transcends boundaries and empowers you to shape your future. At Aditya University, education is more than a degree—it's a pathway to unlocking your full potential and making a meaningful impact.
+    The campus, set in a vibrant environment, attracts students from more than 20 countries, creating a diverse and enriching academic experience. This multicultural atmosphere fosters collaboration and innovation, preparing students for a global workforce.</p>
+</body>
+</html>
