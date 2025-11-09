@@ -1,0 +1,25 @@
+<html>
+<body>
+<script>
+	var string = " Welcome to JavaScript "
+	document.write("Length : "+string.length+"<br>");
+	document.write("Uppercase : "+string.toUpperCase()+"<br>");
+	document.write("Lowercase : "+string.toLowerCase()+"<br>");
+	document.write("Char at index 7: " + string.charAt(7) + "<br>");
+	document.write("Unicode of char at index 0: " + string.charCodeAt(0) + "<br>");
+	document.write("Slice (0, 8): " + string.slice(0, 8) + "<br>");
+	document.write("Substring (0, 7): " + string.substring(0, 7) + "<br>");
+	document.write("Replace 'JavaScript' with 'JS': " + string.replace("JavaScript", "JS") + "<br>");
+	document.write("Concat with ' !!': " + string.concat(" !!") + "<br>");
+	document.write("Includes 'Java': " + string.includes("Java") + "<br>");
+	document.write("Starts with 'Welcome': " + string.startsWith(" Welcome") + "<br>");
+	document.write("Ends with 'Script': " + string.endsWith("Script") + "<br>");
+	document.write("Index of 'to': " + string.indexOf("to") + "<br>");
+	document.write("Last index of 'e': " + string.lastIndexOf("e") + "<br>");
+	document.write("Repeat 2 times: " + string.repeat(2) + "<br>");
+	var spacedString = "   Hello World!   ";
+	document.write("Trimmed string: '" + spacedString.trim() + "'<br>");
+	document.write("Split by space: " + string.split(" ") + "<br>");
+</script>
+</body>
+</html>
