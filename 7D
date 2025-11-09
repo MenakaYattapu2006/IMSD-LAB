@@ -1,0 +1,26 @@
+<html>
+<body>
+<script>
+	var a = -2;
+	var b = 9;
+	var c = 22.25
+	document.write(Math.abs(a)+"<br>");
+	document.write(Math.ceil(c)+"<br>");
+	document.write(Math.floor(c)+"<br>");
+	document.write(Math.round(c)+"<br>");
+	document.write(Math.max(22,25,9,2)+"<br>");
+	document.write(Math.min(22,25,9,2)+"<br>");
+	document.write(Math.sqrt(b)+"<br>");
+	document.write(Math.pow(2,9)+"<br>");
+	document.write(Math.random()+"<br>");
+	document.write(Math.sign(a)+"<br>");
+	document.write(Math.trunc(c)+"<br>");
+	document.write(Math.cbrt(64)+"<br>");
+	document.write(Math.log(b)+"<br>");
+	document.write(Math.sin(0)+"<br>");
+	document.write(Math.hypot(3,4)+"<br>");
+
+	
+</script>
+</body>
+</html>
