@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+	function output()
+	{
+		document.write("Welcome to AUS");
+		alert("This page redirects to AUS Website");
+		console.log("Welcome to AUS");
+		confirm("Confirm to open");
+	}
+</script>
+</head>
+<body>
+ <input type = "button" value = "display" onclick = "output();"/>
+</body>
+</html>
