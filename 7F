@@ -1,0 +1,28 @@
+<html>
+<body>
+<script>
+	var d = new Date();
+	document.write("toString : "+d.toString()+"<br>");
+	document.write("Year : "+d.getFullYear()+"<br>");
+	document.write("Month : "+d.getMonth()+"<br>");
+	document.write("Date : "+d.getDate()+"<br>");
+	document.write("Day : "+d.getDay()+"<br>");
+	document.write("Hours : " + d.getHours() + "<br>");
+	document.write("Minutes : " + d.getMinutes() + "<br>");
+	document.write("Seconds : " + d.getSeconds() + "<br>");
+	document.write("Milliseconds : " + d.getMilliseconds() + "<br>");
+	document.write("Milliseconds since Jan 1, 1970 : " + d.getTime() + "<br>");
+	document.write("Timezone Offset (in minutes) : " + d.getTimezoneOffset() + "<br>");
+	document.write("UTC Full Year : " + d.getUTCFullYear() + "<br>");
+	document.write("UTC Month : " + d.getUTCMonth() + "<br>");
+	document.write("UTC Date : " + d.getUTCDate() + "<br>");
+	document.write("UTC Day : " + d.getUTCDay() + "<br>");
+	document.write("UTC Hours : " + d.getUTCHours() + "<br>");
+	document.write("UTC Minutes : " + d.getUTCMinutes() + "<br>");
+	document.write("UTC Seconds : " + d.getUTCSeconds() + "<br>");
+	d.setFullYear(2030);
+	document.write("Set Full Year to 2030 : " + d.getFullYear() + "<br>");
+	document.write("ISO String : " + d.toISOString() + "<br>");
+</script>
+</body>
+</html>
